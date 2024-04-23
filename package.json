@@ -19,16 +19,14 @@
     "cypress-mochawesome-reporter": "^3.8.2",
     "multiple-cucumber-html-reporter": "^3.6.2"
   },
-
   "cypress-cucumber-preprocessor": {
     "json": {
       "enabled": true,
-      "output": "reports/json/signup-report.json"
+      "output": "reports/json/signup-reports.json"
     },
-
     "html": {
       "enabled": true,
-      "output": "reports/html/signup-report.html"
+      "output": "reports/html/signup-reports.html"
     }
   }
 }
